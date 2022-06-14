@@ -2,6 +2,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 * {
@@ -12,13 +13,16 @@ html {
 
 body {
   font-family: 'Space Mono', monospace;
-  background-image: linear-gradient(90deg, #E586F7F0 35%, #33dee6 100%);
+  background-image: linear-gradient(90deg, #e587f7f0 35%, #33dee6 100%);
+  
 }
+
+
 
 h2 {
   text-align: center;
-  text-shadow: 1px 1px 1px rgb(137, 25, 250),
-    2px 2px 1px rgb(137, 25, 250);
+  text-shadow: 1px 1px 1px #8919fa,
+    2px 2px 1px #8919fa;
   color: #E586F7F0;
 
 }
@@ -62,7 +66,7 @@ i {
 li a {
   margin-right: 20px;
   text-decoration: none;
-  color: white;
+  color: #fff;
   letter-spacing: 2px;
   filter: contrast(200%);
 }
@@ -75,11 +79,14 @@ nav>ul>li {
 /* logo */
 
 #logo {
-  color: white;
+  color: #fff;
   display: inline-block;
   animation: flicker 3s infinite normal;
   margin: 10px;
   font-size: 48px;
+  z-index: 500;
+  position: relative;
+  
 }
 
 #span-link {
@@ -87,7 +94,7 @@ nav>ul>li {
   font-size: 200%;
   vertical-align: bottom;
   margin-right: 20px;
-  color: white;
+  color: #ffffff;
 }
 
 @keyframes flicker {
@@ -97,9 +104,9 @@ nav>ul>li {
   40% {
 
     text-shadow:
-      0 0 10px rgb(137, 25, 250),
-      0 0 20px rgb(137, 25, 250),
-      0 0 30px rgb(137, 25, 250),
+      0 0 10px #8919fa,
+      0 0 20px #8919fa,
+      0 0 30px #8919fa,
       0 0 50px #E586F7F0,
       0 0 60px #E586F7F0,
       0 0 70px #E586F7F0;
@@ -138,6 +145,7 @@ nav>ul>li>a:hover {
   z-index: 200;
   justify-content: center;
   align-items: center;
+  
 }
 
 .img-btn {
@@ -160,9 +168,10 @@ nav>ul>li>a:hover {
 
 #hero-h1>a {
   text-decoration: none;
-  color: white;
-  text-shadow: 1px 1px 1px rgb(137, 25, 250),
-    2px 2px 1px rgb(137, 25, 250);
+  color: #fff;
+  text-shadow: 1px 1px 1px black,
+    2px 2px 1px black;
+    
 }
 
 .img-btn:hover {
@@ -273,7 +282,7 @@ textarea {
   outline: none;
   border-radius: 5px;
   padding: 0.5em 0.5em;
-  border: 1px solid black;
+  border: 1px solid #000000;
   transition: all 300ms ease;
   margin-bottom: 1.2em;
   margin-top: 1em;
@@ -281,10 +290,10 @@ textarea {
 
 .btn {
   width: 100%;
-  background: black;
+  background: #000000;
   color: #8919FA;
-  text-shadow: 1px 1px 1px rgb(137, 25, 250),
-    2px 2px 1px rgb(137, 25, 250);
+  text-shadow: 1px 1px 1px #8919fa,
+    2px 2px 1px #8919fa;
   font-size: 1.15em;
   padding: 10px 8px;
   border-radius: 10px;
@@ -436,6 +445,8 @@ textarea {
     list-style-type: none;
     margin-left: 10px;
   }
-
+#links{
+  border-radius: 0;
+}
 
 }
