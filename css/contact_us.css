@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-image: linear-gradient(90deg, #e587f7f0 35%, #33dee6 100%);
+    
+  }
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #8919fa,
+      2px 2px 1px #8919fa;
+    color: #E586F7F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* navigation */
+
+#id-container {
+    height: 65px;
+    width: 100%;
+    position: relative;
+  }
+  
+#links {
+font-weight: 500;
+float: right;
+margin-right: 15px;
+position: fixed;
+right: 0;
+top: 0;
+z-index: 999;
+border: solid 2px white;
+border-radius: 10px;
+background-color: black;
+}
+
+#logo,
+#links {
+line-height: 50px;
+}
+
+li a {
+margin-right: 20px;
+text-decoration: none;
+color: #fff;
+letter-spacing: 2px;
+filter: contrast(200%);
+}
+
+nav>ul>li {
+float: left;
+list-style-type: none;
+}
+
+/* logo */
+
+#logo {
+color: #fff;
+display: inline-block;
+animation: flicker 3s infinite normal;
+margin: 10px;
+font-size: 48px;
+z-index: 500;
+position: relative;
+
+}
+
+#span-link {
+animation: flicker 3s infinite normal;
+font-size: 200%;
+vertical-align: bottom;
+margin-right: 20px;
+color: #ffffff;
+}
+
+@keyframes flicker {
+
+0%,
+20%,
+40% {
+
+    text-shadow:
+    0 0 10px #8919fa,
+    0 0 20px #8919fa,
+    0 0 30px #8919fa,
+    0 0 50px #E586F7F0,
+    0 0 60px #E586F7F0,
+    0 0 70px #E586F7F0;
+}
+
+10%,
+18%,
+38% {
+    text-shadow: none;
+}
+}
+
+nav>ul>li>a:hover {
+color: #E586F7F0;
+border: 0.2rem solid #fff;
+border-radius: 2rem;
+padding: 0.4em;
+box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #E586F7F0,
+    0 0 0.8rem #E586F7F0,
+    0 0 2.8rem #E586F7F0,
+    inset 0 0 1.3rem #E586F7F0;
+transition: all 0.2s ease-in-out;
+font-weight: bolder;
+}
+
+
+  /* footer */
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.socials {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.socials i {
+font-size: 200%;
+color: #8919FA;
+float: right;
+margin-right: 20px;
+
+}
+
+footer>p {
+font-size: 150%;
+margin-left: 50px;
+font-weight: bolder;
+
+}
+
+/* contact us */
+.container {
+background-color: #8919FA;
+}
+
+.contact-box {
+max-width: 1440px;
+margin: 0;
+display: flex;
+}
+
+form {
+max-width: 500px;
+padding: 1.875em;
+}
+
+form label {
+color: #33dee6;
+font-size: 1.125em;
+}
+
+.input,
+textarea {
+width: 100%;
+outline: none;
+border-radius: 5px;
+padding: 0.5em 0.5em;
+border: 1px solid #000000;
+transition: all 300ms ease;
+margin-bottom: 1.2em;
+margin-top: 1em;
+}
+
+.btn {
+width: 100%;
+background: #000000;
+color: #8919FA;
+text-shadow: 1px 1px 1px #8919fa,
+    2px 2px 1px #8919fa;
+font-size: 1.15em;
+padding: 10px 8px;
+border-radius: 10px;
+letter-spacing: 15px;
+}
+
+.btn:hover {
+background-color: #33dee6;
+transition: all 0.3s ease-in-out;
+}
+
+.right {
+
+width: 600px;
+height: 580px;
+padding-top: 300px;
+padding-left: 50px;
+}
+
+.right>ol>li {
+margin: 1em 1em;
+color: #33dee6;
+text-align: center;
+margin-top: 20px;
+line-height: 2em;
+}
+
+.right>p {
+text-align: center;
+font-size: larger;
+font-weight: bolder
+}
+
+.right li:hover {
+border: 1px solid black;
+transition: all 0.3s ease-in-out;
+}
+
+.left:hover {
+border: 2px solid #33dee6;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width:1028px) {
+.content {
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.facts-10 {
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+#media {
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.content>div {
+    width: 90%;
+}
+
+footer {
+    width: 65%;
+    margin: 0 auto;
+    clear: both;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: left;
+    padding: 0 10px;
+}
+
+#hero-h1 {
+    width: 300px;
+}
+
+.right {
+    display: none;
+}
+
+form {
+    max-width: 700px;
+}
+}
+
+@media screen and (max-width:728px) {
+.content {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+.facts-10 {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+#media {
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+#links {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    line-height: 65px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav > a {
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    padding-top: 30%;
+}
+
+p {
+    text-align: center;
+}
+
+footer>p {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+
+    place-items: center;
+}
+
+.left>h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.left{
+    
+}
+
+.socials>li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+#id-container {
+    display: grid;
+    justify-content: center;
+
+}
+.contact-box{
+    
+}
+
+}
