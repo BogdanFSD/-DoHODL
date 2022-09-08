@@ -453,12 +453,39 @@ textarea {
 #cent {
   line-height: 200px;
   height: 200px;
-  border: 3px solid violet;
+  border-radius: 2em;
+  border: 3px solid #8919FA;
   text-align: center;
-  background-image: linear-gradient(90deg, #e587f7f0 35%, #33dee6 100%);
-  margin-top: 40vh;
-
+  background-image: linear-gradient(270deg, #e587f7f0 35%, #33dee6 100%);
+  margin: auto;
+  margin-top: 30vh;
+  width: 50%;
 }
+
+.home {
+  border: 5px solid #8919FA;
+  color: white;
+  border-radius: 2em;
+  background-color: #8919FA;
+  font-size: 16px;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+#cent a:hover{
+  color: #E586F7F0;
+  border: 0.3rem solid #fff;
+  padding: 1em 1.5em;
+  box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #E586F7F0,
+    0 0 0.8rem #E586F7F0,
+    0 0 2.8rem #E586F7F0,
+    inset 0 0 1.3rem #E586F7F0;
+  transition: all 0.2s ease-in-out;
+  font-weight: bolder;
+}
+
+  
 
 
 
