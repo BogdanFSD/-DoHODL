@@ -215,10 +215,12 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
  ### **Code Validation**
 
  - HTML validation
-  ![HTML Validation](assets/readme-img/html1-validator.png)
+
+![HTML Validation](assets/readme-img/html1-validator.png)
 
  - CSS validation
- ![CSS Validation](assets/readme-img/css-validator.png)
+
+![CSS Validation](assets/readme-img/css-valid.jpg)
 
 
  - Lighthouse testing 
