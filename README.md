@@ -1,6 +1,6 @@
  # #DoHODL 
 
- ![](img/mock_up.png)
+ ![](assets/readme-img/mock_up.png)
 
 
  ## Purpose of the Project
@@ -31,6 +31,7 @@ Link to [live site](https://bogdanfsd.github.io/-DoHODL/)
   * [**Code Validation**](<#code-validation>)
   * [**Responsive**](<#responsive>)
   * [**User Story Testing**](<#user-story-testing>)
+  * [**Testing steps**](<#testing-steps>)
   * [**Bugs Fixed**](<#bugs-fixed>)
   * [**Deployment**](<#deployment>)
 
@@ -79,7 +80,7 @@ I picked up [Space Mono](https://fonts.google.com/specimen/Space+Mono) as the on
 
 Site mostly targeted for younger generations as practice shows for them it is easier get used to new technologies. So coors were choosen bright and colorfull all over the site, they are:
 
-![Coolors Palette](img/colors.png)
+![Coolors Palette](assets/readme-img/colors.png)
 
 
 ### **Design Prototype**
@@ -101,12 +102,12 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
 
 <details><summary><b>Desktop Navigation Links View</b></summary>
 
-![Navigation Links  View](img/navlinks.png)
+![Navigation Links  View](assets/readme-img/navlinks.png)
 </details><br />
 
 <details><summary><b>Responsive Navigation Links View</b></summary>
 
-![Navigation Links Mobile View](img/navlinks-resp.png)
+![Navigation Links Mobile View](assets/readme-img/navlinks-resp.png)
 </details><br />
 
 [Back to menu](#contents)
@@ -117,7 +118,7 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
 
 <details><summary><b>Hero image</b></summary>
 
-![Hero Image](img/btc22.png)
+![Hero Image](assets/readme-img/btc22.png)
 </details><br />
 
 [Back to menu](#contents)
@@ -128,7 +129,7 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
 
 <details><summary><b>Content</b></summary>
 
-![Content](img/content.png)
+![Content](assets/readme-img/content.png)
 </details><br />
 
 [Back to menu](#contents)
@@ -139,12 +140,12 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
 
 <details><summary><b>Footer</b></summary>
 
-![footer](img/footer.png)
+![footer](assets/readme-img/footer.png)
 </details><br />
 
 <details><summary><b>Responsive Footer</b></summary>
 
-![footer](img/footer-resp.png)
+![footer](assets/readme-img/footer-resp.png)
 </details><br />
 
 [Back to menu](#contents)
@@ -156,12 +157,12 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
 
 <details><summary><b>Contact Us</b></summary>
 
-![Contact Us](img/contact_us.png)
+![Contact Us](assets/readme-img/contact_us.png)
 </details><br />
 
 <details><summary><b>Responsive Contact Us</b></summary>
 
-![Responsive Contact Us](img/contact_us-resp.png)
+![Responsive Contact Us](assets/readme-img/contact_us-resp.png)
 </details><br />
 
 [Back to menu](#contents)
@@ -214,15 +215,15 @@ Honestly I didn't Use any programm or online redactor for this purposse as I got
  ### **Code Validation**
 
  - HTML validation
-  ![HTML Validation](img/html1-validator.png)
+  ![HTML Validation](assets/readme-img/html1-validator.png)
 
  - CSS validation
- ![CSS Validation](img/css-validator.png)
+ ![CSS Validation](assets/readme-img/css-validator.png)
 
 
  - Lighthouse testing 
 
- ![Lighthouse testing](img/lighthouse.png)
+ ![Lighthouse testing](assets/readme-img/lighthouse.png)
 
  [Back to menu](#contents)
 
@@ -247,6 +248,74 @@ Site is responsive. Tested with all browsers and screens. Live address was given
 
   [Back to menu](#contents)
 
+
+### **Testing steps**
+
+- Home page
+  - Once user opens the site and will see the page after clicking "Learn More" 
+  
+![Home page](assets/readme-img/home-page.jpg)
+  
+  it should redirect him to relevant section of the page
+
+![Home page](assets/readme-img/learn-more.jpg)
+
+
+
+- Navigation Bar
+  - When User opens the site first time and will click on any of navigation-bar option they should show him response and redirect to relevant part of the site:
+
+  - Home
+
+![Home page](assets/readme-img/home.jpg)
+
+  - About
+
+![Home page](assets/readme-img/abouut.jpg)
+
+  - BeHodler
+
+![Home page](assets/readme-img/form.jpg)
+
+
+- BeHodler
+  - At Contact Us option or "BeHodler" there is a form that should not submit any empty data and after clicking Submit or "HODL" user should see confirmation:
+
+
+  Empty Totem Name input:
+
+
+![Home page](assets/readme-img/empty-name.jpg)
+
+  Empty Wallet input:
+
+
+![Home page](assets/readme-img/empty-wallet.jpg)
+
+  Empty Telegram Account input:
+
+
+![Home page](assets/readme-img/telegram-acc.jpg)
+
+  Empty Twitter Account input:
+
+
+![Home page](assets/readme-img/twitter.jpg)
+
+  Empty Text Area input:
+
+
+![Home page](assets/readme-img/text-area.jpg)
+
+  Confirmation after submission and button "Home" that will redirect to home page:
+
+
+![Home page](assets/readme-img/conf.jpg)
+
+
+[Back to menu](#contents)
+
+
 ### **Bugs Fixed**
 
 *Console Error*
@@ -254,7 +323,7 @@ Site is responsive. Tested with all browsers and screens. Live address was given
 - Error that appeared while was checking website with the  help of Google Chrome Devtools. Seeing the red notification about favicon. Looks like site can't find an favicon.
  - Once favicon been in place bugs dissapear
 
-![Bug](img/bug1.png)
+![Bug](assets/readme-img/bug1.png)
 
 [Back to menu](#contents)
 
@@ -268,7 +337,7 @@ Website was developed with Gitpod and pushed to Github with this steps:
 - Searching for  *Source* and choose  *Branch Main*
 - click *Save* and site will reload automatically with link where our site publiched
 
-![URL](img/url.png)
+![URL](assets/readme-img/url.png)
 
 [Back to menu](#contents)
 
