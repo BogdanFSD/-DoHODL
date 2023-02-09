@@ -5,6 +5,11 @@ html {
   
 }
 
+#about-h2{
+  margin-left: 100px;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +22,9 @@ body {
   
 }
 
-
+.h2-center{
+  width: 75%;
+}
 
 h2 {
   text-align: center;
@@ -166,6 +173,7 @@ nav>ul>li>a:hover {
 }
 
 #hero-h1>a {
+  color: #8b008b;
   text-decoration: none;
   text-shadow: 1px 1px 1px black,
     2px 2px 1px black;
@@ -186,6 +194,10 @@ nav>ul>li>a:hover {
 }
 
 /* content */
+
+.text-center{
+  text-align: left;
+}
 
 .content {
   background-color: white;
@@ -227,6 +239,7 @@ section>h2 {
     padding-top: 50px;
   }
 }
+
 
 /* footer */
 
@@ -348,11 +361,16 @@ textarea {
     margin: 0 auto;
   }
 
+  .h2-center{
+    width: auto;
+  }
+
   .facts-10 {
     width: 70%;
     height: 30%;
     margin: 0 auto;
     display: block;
+    
   }
 
   #media {
@@ -381,6 +399,7 @@ textarea {
 
   #hero-h1 {
     width: 300px;
+    text-align: center;
   }
 
   .right {
